@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Shopee</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+  <link href="fontawesome/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="root">
+
+    <header>
+      <div class="content">
+        <!--Logo -->
+        <a class="logo" href="">
+          <img src="img/logo.svg" alt="Logo">
+        </a>
+
+        <!--Menu-->
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="">Eletronics</a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">Fashion</a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">Tools</a>
+          </li>
+
+          <li class="menu-item">
+            <a href="">Books</a>
+          </li>
+
+        </ul>
+
+        <!--Search-->
+        <div class="search-input">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search">
+        </div>
+
+        <!--Cart-->
+        <div class="cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span>4</span>
+        </div>
+
+        <!--Avatar-->
+        <img
+          src="https://images.unsplash.com/photo-1510227272981-87123e259b17?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=3759e09a5b9fbe53088b23c615b6312e"
+          alt="" class="avatar">
+
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="breadcrumb">
+          <a href="">Home</a>
+          <span>></span>
+          <a href="">Kitchen</a>
+          <span>></span>
+          <a href="">Tools</a>
+        </div>
+      </section>
+
+      <section>
+        <!--Product-->
+        <div class="product">
+          <div class="images">
+            <img src="img/fig2.jpg" alt="" id="big-image">
+            <div class="gallery">
+
+              <div id="item-fig1" class="item selected" onclick="changeImage('fig1')">
+                <img src="img/fig1.jpg" alt="">
+              </div>
+
+              <div id="item-fig2" class="item" onclick="changeImage('fig2')">
+                <!--Quando clicar, vai mudar pra imagem linkada-->
+                <img src="img/fig2.jpg" alt="">
+              </div>
+
+              <div id="item-fig3" class="item" onclick="changeImage('fig3')">
+                <img src="img/fig3.jpg" alt="">
+              </div>
+
+            </div>
+
+          </div>
+          <!--Product info-->
+          <div class="info">
+            <h2 class="title">Pro Hammer</h2>
+            <p class="by">by <a href="">kc company</a></p>
+            <div class="price">
+              <span class="currency">$</span>
+              <span class="value">25</span>
+            </div>
+            <p class="description">This hammer is perfect for tenderizing or flattening chicken, beef, pork or venison.
+              Oversize handle and finger indents give a great hold without strain and keeps hands clear of the tool's
+              functional surface.
+            </p>
+            <button class="add">Add to Cart</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
