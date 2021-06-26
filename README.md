@@ -4,6 +4,7 @@
     <a href="https://practical-mcclintock-cf7789.netlify.app/">Acessar projeto</a>
 <h3 >
 
+![Real-Shopee](https://user-images.githubusercontent.com/70078964/123511785-b4484280-d659-11eb-9106-8785ecb062e9.gif)
 
     
 ## Sobre 
